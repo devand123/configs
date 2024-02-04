@@ -1,5 +1,3 @@
-!/bin/bash
-
 echo "Copying nvim config + plugins"
 cp -R ~/.config/nvim/lua ./nvim
 

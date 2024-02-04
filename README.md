@@ -27,3 +27,9 @@ If you need to update your current machine with the configs in this repo, use th
 If you made modifications on your current machine that you want shared across all machines, use push to update the configs in this repo based on the current machines configs.
 
 `./push.sh`
+
+## Nerd fonts
+
+You may encounter issues with nerdfont not working correctly,
+
+Follow the README for this repo: https://github.com/Homebrew/homebrew-cask-fonts/blob/master/Casks/font-jetbrains-mono-nerd-font.rb

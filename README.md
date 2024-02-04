@@ -16,9 +16,14 @@ https://github.com/tmux-plugins/tpm
 
 Be sure to install the plugins `<leader>I` after updating tmux.conf
 
-## Move conf files to appropriate place
+## pull
 
-TODO: create a script for this
+If you need to update your current machine with the configs in this repo, use the pull script
 
-- nvim files should be able to be merged with `~/.config/nvim`
-- tmux files should be able to be merged with ~/.config/tmux
+`./pull.sh`
+
+## push
+
+If you made modifications on your current machine that you want shared across all machines, use push to update the configs in this repo based on the current machines configs.
+
+`./push.sh`
